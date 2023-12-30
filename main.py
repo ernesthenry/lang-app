@@ -4,7 +4,7 @@ from langchain_core.output_parsers import StrOutputParser
 
 
 
-llm = ChatOpenAI(openai_api_key="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")
+llm = ChatOpenAI(openai_api_key="")
 llm.invoke("how can langsmith help with testing?")
 prompt = ChatPromptTemplate.from_messages([
     ("system", "You are world class technical documentation writer."),
